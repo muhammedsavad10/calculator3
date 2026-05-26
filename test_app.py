@@ -1,7 +1,6 @@
 """Tests for calculator."""
 
-from app import add, subtract, multiply, divide
-
+from app import add, subtract, multiply, divide, power
 
 def test_add():
     """Test add."""
@@ -26,3 +25,7 @@ def test_divide():
 def test_divide_float():
     """Test float division."""
     assert divide(5, 2) == 2.5
+
+def test_power():
+    """Test power."""
+    assert power(2, 3) == 8
