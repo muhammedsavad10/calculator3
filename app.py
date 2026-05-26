@@ -19,3 +19,7 @@ def multiply(a, b):
 def divide(a, b):
     """Return division."""
     return a / b
+
+def power(a, b):
+    """Return power."""
+    return a ** b
